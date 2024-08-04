@@ -1,0 +1,31 @@
+name: untitled8
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.0.13 # Ensure this is the latest version
+  flutter_local_notifications: ^14.0.0
+  cupertino_icons: ^1.0.6
+  flutter_lints: ^3.0.0
+
+flutter:
+  assets:
+    - assets/logo.png
+    - assets/progress.png
+    - assets/logoAppBar.png
+    - assets/water.png
+    - assets/onboarding1.png
+    - assets/onboarding2.png
+    - assets/onboarding3.png
+  uses-material-design: true
